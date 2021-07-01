@@ -14,8 +14,8 @@ Contact pads are designed to accomodate a wide variety of buttons.
 
 ## Ordering boards
 
-I've uploaded both boards to OSHPark: [DPad](https://oshpark.com/shared_projects/GQXAFJjN),
-[A and B](https://oshpark.com/shared_projects/Mo6XjgLU). Best to order them as
+I've uploaded both boards to OSHPark: [DPad](https://oshpark.com/shared_projects/HXDz5vQI),
+[A and B](https://oshpark.com/shared_projects/JWpZMYHv). Best to order them as
 flex PCBs to have them as thin as possible.
 
 Gerbers are available in `gerbers` directory.
@@ -23,8 +23,12 @@ Gerbers are available in `gerbers` directory.
 ## Installation
 
 Soldering PCBs to GBA main board is pretty straightforward: line up holes with
-corresponding test pads and solder them down. Next steps depend on the height of
-the buttons you're using.
+corresponding test pads and solder them down.
+
+When soldering buttons, try to center them as best as you can. On DPad this can
+make big difference in how they will feel during use.
+
+Next steps depend on the height of the buttons you're using.
 
 ### ~0.6mm buttons
 
@@ -58,3 +62,10 @@ conductive pads with a knife, flush to the rest of the membrane.
 Additionally, you'll need to stick something about 0.6mm thick in the middle of
 DPad PCB in order to prevent DPad from activating too many buttons at once.
 Adhesive pad that came with the IPS display worked pretty well in my case.
+
+## Changes in v2.1
+
+* Test pad holes drill diameter reduced to 1mm
+* All test pads now have cutouts for easier soldering
+* TP6 pad changed to remove overlap with nearby RESET pad on the main board
+* GND pad on DPad board moved a bit to the left, reducing the distance to shoulder button
