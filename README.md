@@ -43,6 +43,12 @@ switch). You will probably also need to add cardboard pieces in the middle of
 DPad board in order to lift the DPad a bit and prevent it from pressing too many
 buttons at once. See the [video](https://youtu.be/q93zTNmFXSk) for more details.
 
+A better option is to 3D print the adapter. Print slow and with supports and snap
+the adapter into the DPAD. Install with no membrane. Shimming the middle support
+post of the DPAD may be necessary to prevent hitting all four buttons simultaneously.
+Too low and you will hit all buttons at the same time, too high and you will not 
+be able to hit any buttons. 
+
 ### ~1.5mm buttons
 
 I've tried the following buttons, in the order of preference:
